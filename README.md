@@ -1,17 +1,14 @@
 # FACTORIAL-OF-A-NUMBER
 # FACTORIAL OF A NUMBER USING 8051 (Keil)
 
-## AIM
-To write and execute an Assembly language program to perform the factorial of a number using 8051 Keil.
+### AIM
+To write and execute an Assembly Language Program to perform the factorial of a number using 8051 Keil.
 
----
 
-## APPARATUS REQUIRED
+### APPARATUS REQUIRED
 - Personal computer with Keil software
 
----
-
-## ALGORITHM
+### ALGORITHM
 1. **Start**
 2. **Input**: Read the number `n`.
 3. **Initialize**:
@@ -25,13 +22,12 @@ To write and execute an Assembly language program to perform the factorial of a 
 
 ---
 
-## FLOWCHART
-<img width="506" height="525" alt="image" src="https://github.com/user-attachments/assets/f3b47187-6f0f-490c-8704-f2973cb2b276" />
-
+### FLOWCHART
+<img width="406" height="325" alt="image" src="https://github.com/user-attachments/assets/f3b47187-6f0f-490c-8704-f2973cb2b276" />
 
 ---
 
-## PROGRAM
+### PROGRAM
 ```asm
 ORG 0000H
 MOV DPTR,#4500H
@@ -52,19 +48,16 @@ THIN:RET
 END
 
 ```
-OUTPUT
+### OUTPUT
 
-(Keil output screenshot can be inserted here)
+<img width="972" height="589" alt="image" src="https://github.com/user-attachments/assets/918bed55-10fc-48ca-9e79-b9745fb44678" />
 
----
-MANUAL CALCULATIONS
 
----
+### MANUAL CALCULATION
+<img width="406" height="325" alt="image" src="https://github.com/user-attachments/assets/93b3dd36-a838-43a9-9b11-82793059b555" />
 
-RESULT
+### RESULT
 
 Thus, the factorial of a number was calculated and executed successfully using 8051 Keil.
 
 ---
-
-
